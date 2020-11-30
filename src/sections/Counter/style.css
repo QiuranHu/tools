@@ -1,0 +1,25 @@
+.counter__number {
+  text-align: center;
+}
+
+.counter__button-container {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter__change-by-input {
+  margin-bottom: 10px;
+}
+
+.counter__button-minus {
+  margin-right: 5px;
+}
+
+.counter__button-add {
+  margin-left: 5px;
+}

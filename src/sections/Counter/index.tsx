@@ -41,7 +41,6 @@ export const Counter = () => {
   };
   const setNewChangeBy = (newChangeBy: string) => {
     const changeBy = Number(newChangeBy);
-    console.log(changeBy);
     if (Number.isNaN(changeBy)) {
       return;
     }
@@ -50,10 +49,19 @@ export const Counter = () => {
       changeBy: Number(newChangeBy),
     });
   };
+  const reset = () => {
+    setState({
+      ...state,
+      number: 0,
+    });
+  };
   return (
     <>
       <Headline1 className="counter__number">{state.number}</Headline1>
       <div className="counter__button-container">
+        <Button className="counter__button-reset" onClick={reset}>
+          Reset
+        </Button>
         <div className="counter__change-by-input">
           <TextField outlined={true} label="Change By">
             <Input

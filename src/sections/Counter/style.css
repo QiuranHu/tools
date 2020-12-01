@@ -23,3 +23,7 @@
 .counter__button-add {
   margin-left: 5px;
 }
+
+.counter__button-reset {
+  margin-bottom: 15px;
+}

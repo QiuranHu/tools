@@ -1410,6 +1410,18 @@
     "@material/theme" "^1.1.0"
     "@material/typography" "^1.0.0"
 
+"@material/card@^2.1.1":
+  version "2.3.0"
+  resolved "https://registry.npm.taobao.org/@material/card/download/@material/card-2.3.0.tgz#f59ac3b16d21d21af5747a530624f14622286c29"
+  integrity sha1-9ZrDsW0h0hr1dHpTBiTxRiIobCk=
+  dependencies:
+    "@material/elevation" "^1.1.0"
+    "@material/feature-targeting" "^0.44.1"
+    "@material/ripple" "^2.3.0"
+    "@material/rtl" "^0.42.0"
+    "@material/shape" "^1.1.1"
+    "@material/theme" "^1.1.0"
+
 "@material/dom@^1.0.0", "@material/dom@^1.1.0":
   version "1.1.0"
   resolved "https://registry.npm.taobao.org/@material/dom/download/@material/dom-1.1.0.tgz#3bd3d1a3415b4181118fecb182d93beda56a6f8c"
@@ -1512,6 +1524,15 @@
   integrity sha1-FYXIZUfNg+vgZC+o9FuD2jB10lk=
   dependencies:
     "@material/button" "^1.1.0"
+    "@material/react-ripple" "^0.15.0"
+    classnames "^2.2.6"
+
+"@material/react-card@^0.15.0":
+  version "0.15.0"
+  resolved "https://registry.npm.taobao.org/@material/react-card/download/@material/react-card-0.15.0.tgz#e76a4f3c21b82802bb52b600c62535165c143b71"
+  integrity sha1-52pPPCG4KAK7UrYAxiU1FlwUO3E=
+  dependencies:
+    "@material/card" "^2.1.1"
     "@material/react-ripple" "^0.15.0"
     classnames "^2.2.6"
 
